@@ -19,3 +19,8 @@ body{
   --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
   /* ... */
 }
+
+
+.section-container{
+  @apply max-w-screen-2xl container  mx-auto py-6 px-4;
+}
